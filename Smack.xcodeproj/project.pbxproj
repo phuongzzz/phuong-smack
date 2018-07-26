@@ -10,6 +10,7 @@
 		AC305D2F3091C41E7CF847FB /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5864848FF5EBBA125151484C /* Pods_Smack.framework */; };
 		F32B6831210A0BD4007D9464 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32B6830210A0BD4007D9464 /* GradientView.swift */; };
 		F32B6834210A2DC1007D9464 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32B6833210A2DC1007D9464 /* Constants.swift */; };
+		F32B6836210A396D007D9464 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32B6835210A396D007D9464 /* LoginVC.swift */; };
 		F3760AE62108C5F1003E1801 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3760AE52108C5F1003E1801 /* AppDelegate.swift */; };
 		F3760AEB2108C5F1003E1801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3760AE92108C5F1003E1801 /* Main.storyboard */; };
 		F3760AED2108C5F2003E1801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3760AEC2108C5F2003E1801 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		618230F80A1A83E1DEB5005E /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 		F32B6830210A0BD4007D9464 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		F32B6833210A2DC1007D9464 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F32B6835210A396D007D9464 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		F3760AE22108C5F1003E1801 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3760AE52108C5F1003E1801 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3760AEA2108C5F1003E1801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				F32B6830210A0BD4007D9464 /* GradientView.swift */,
+				F32B6835210A396D007D9464 /* LoginVC.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				F3760B042108CC6C003E1801 /* ChatVC.swift in Sources */,
 				F3760B022108CA02003E1801 /* ChannelVC.swift in Sources */,
+				F32B6836210A396D007D9464 /* LoginVC.swift in Sources */,
 				F32B6831210A0BD4007D9464 /* GradientView.swift in Sources */,
 				F3760AE62108C5F1003E1801 /* AppDelegate.swift in Sources */,
 				F3760AFB2108C833003E1801 /* SWRevealViewController.m in Sources */,

@@ -214,10 +214,10 @@
             </objects>
             <point key="canvasLocation" x="869.60000000000002" y="-149.77511244377811"/>
         </scene>
-        <!--View Controller-->
+        <!--LoginVC-->
         <scene sceneID="o3a-Cs-Ef8">
             <objects>
-                <viewController id="ZL6-wb-0Uv" sceneMemberID="viewController">
+                <viewController id="ZL6-wb-0Uv" customClass="LoginVC" customModule="Smack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eLT-IX-Lgw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -225,6 +225,9 @@
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5X-yV-YF6">
                                 <rect key="frame" x="322" y="50" width="28" height="28"/>
                                 <state key="normal" image="closeButton"/>
+                                <connections>
+                                    <action selector="closeBtnPressed:" destination="ZL6-wb-0Uv" eventType="touchUpInside" id="kob-lb-BDc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3hi-Ve-2RC">
                                 <rect key="frame" x="63" y="374" width="250" height="50"/>
