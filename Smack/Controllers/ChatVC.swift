@@ -11,6 +11,7 @@ import UIKit
 class ChatVC: UIViewController {
 
     @IBOutlet weak var menuBtn: UIButton!
+    @IBAction func prepareforUnwind(segue: UIStoryboardSegue) {}
     
     override func viewDidLoad() {
         super.viewDidLoad()

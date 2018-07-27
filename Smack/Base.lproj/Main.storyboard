@@ -300,6 +300,9 @@
                                 <state key="normal" title="Don't have an account? Sign up here!">
                                     <color key="titleColor" red="0.5725490196078431" green="0.6588235294117647" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="signUpBtnPressed:" destination="ZL6-wb-0Uv" eventType="touchUpInside" id="8k1-jZ-CFL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -317,15 +320,18 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nsD-ox-j1g"/>
                     </view>
+                    <connections>
+                        <segue destination="CtE-of-hsz" kind="show" identifier="toCreateAccount" id="NYx-u4-siN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lQE-Dw-PzB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1661.5" y="-150.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Create AccountVC-->
         <scene sceneID="6Mz-dm-NJL">
             <objects>
-                <viewController id="CtE-of-hsz" sceneMemberID="viewController">
+                <viewController id="CtE-of-hsz" customClass="CreateAccountVC" customModule="Smack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dKg-Ve-kZz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -337,6 +343,9 @@
                                     <constraint firstAttribute="width" constant="28" id="hMD-4Z-6CR"/>
                                 </constraints>
                                 <state key="normal" image="closeButton"/>
+                                <connections>
+                                    <action selector="closeBtnPressed:" destination="CtE-of-hsz" eventType="touchUpInside" id="3F8-C4-ef9"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create an account" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w8R-k7-iNV">
                                 <rect key="frame" x="62.5" y="90" width="250" height="33"/>
@@ -460,8 +469,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="j2F-Ee-dWe"/>
                     </view>
+                    <connections>
+                        <segue destination="MWc-4W-Qmc" kind="unwind" identifier="unwindToChannel" unwindAction="prepareforUnwindWithSegue:" id="CDJ-kh-wzA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VYB-XI-neb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="MWc-4W-Qmc" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2368.8000000000002" y="-151.57421289355324"/>
         </scene>
