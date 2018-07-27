@@ -397,6 +397,7 @@
                                         <color key="backgroundColor" red="0.96862745098039216" green="0.792156862745098" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2" id="0wR-el-Rky"/>
+                                            <constraint firstAttribute="width" constant="250" id="E7o-6b-qCI"/>
                                         </constraints>
                                     </view>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Please enter your email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tje-iY-Fzp">
@@ -412,6 +413,7 @@
                                         <rect key="frame" x="0.0" y="97" width="250" height="2"/>
                                         <color key="backgroundColor" red="0.96862745100000003" green="0.79215686269999996" blue="0.78823529410000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="JKn-2w-DPO"/>
                                             <constraint firstAttribute="height" constant="2" id="jhm-hb-1Fe"/>
                                         </constraints>
                                     </view>
@@ -429,12 +431,10 @@
                                         <color key="backgroundColor" red="0.96862745100000003" green="0.79215686269999996" blue="0.78823529410000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2" id="cVm-uG-tg4"/>
+                                            <constraint firstAttribute="width" constant="250" id="e1M-8E-YUC"/>
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="aOG-LM-NuG"/>
-                                </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z6I-2Q-jUc">
                                 <rect key="frame" x="62" y="597" width="250" height="50"/>
